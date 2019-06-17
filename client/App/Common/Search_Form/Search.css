@@ -1,0 +1,39 @@
+.form {
+  margin: 0;
+  /*max-width: 850px;*/
+  text-align: left;
+}
+
+.hidexs{
+  display: block !important; 
+}
+.showxs{
+  display: none !important;
+}
+
+.mobileInput {
+  composes: searchBar from './SearchForm.css';
+  composes: formGeneral from './SearchForm.css';
+  width: 82%;
+}
+
+.button {
+  composes: button from './SearchForm.css';
+  height: 38px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .hidexs{
+    display: none !important; 
+  }
+  .showxs{
+    display: block !important;
+  }
+
+	.button{
+		height: 35px;
+		margin-top:0px;
+	}
+}

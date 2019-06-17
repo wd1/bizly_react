@@ -1,0 +1,60 @@
+.padding {
+  padding: 100px;
+  text-align: center; 
+	font-family: ProximaNova-Light;
+	font-size: 29px;
+	color: #000000;
+}
+.listings {
+  padding: 50px;
+  text-align: center; 
+	font-family: ProximaNova-Light;
+	font-size: 29px;
+	color: #000000;
+	background: #ffffff;
+	margin: 20px 0;
+}
+
+
+.loadimg{
+	width: 200px;
+}
+.listings .loadimg{
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+
+.checkoutpadding{
+	padding:20px;
+	width: 370px;
+	text-align: center;
+}
+.signup{
+	padding:20px;
+	width: 100%;
+	text-align: center;
+	font-family: ProximaNova-Light;
+	font-size: 16px;
+}
+.signup img{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {
+ 
+
+	.loadimg{
+		width: 100px;
+		margin-bottom: 10px;
+	} 
+	.checkoutpadding{
+		padding:00px;
+		width: 100%;
+		text-align: center;
+	}
+	.padding{
+		padding: 100px 20px 60px;
+		font-size: 18px;
+	}
+
+}

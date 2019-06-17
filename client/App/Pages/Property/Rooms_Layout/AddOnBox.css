@@ -1,0 +1,40 @@
+.amenityadd{
+	float:left;
+	width: 46%;
+	margin-right: 4%;
+	box-shadow: 2px 2px 4px rgba(216,216,216,.0);
+	-webkit-transition: box-shadow ease .5s;
+    -moz-transition: box-shadow ease .5s;
+    -o-transition: box-shadow ease .5s;
+    transition: box-shadow ease .5s;
+    margin-bottom: 20px;
+ 
+
+}
+
+.amenityadd:hover{
+	box-shadow: 4px 4px 4px #d1cdd2;
+	-webkit-transition: box-shadow ease .5s;
+    -moz-transition: box-shadow ease .5s;
+    -o-transition: box-shadow ease .5s;
+    transition: box-shadow ease .5s;
+}
+
+.amenityadd:nth-child(even){
+	margin-right: 0px; 
+}
+.amenityadd:nth-child(odd){ 
+	clear: left;
+}
+
+
+@media screen and (max-width: 768px) {
+	.amenityadd{
+		float:none;
+		width: 100%;
+		margin-right: 0px;
+	}
+
+
+}
+

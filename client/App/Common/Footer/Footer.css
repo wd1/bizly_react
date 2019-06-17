@@ -1,0 +1,115 @@
+/* Jumbotron */
+/* Fill icon */
+/*background: #FEFEFE;*/
+
+.paddingSet {
+	padding-top: 35px;
+	padding-bottom: 40px;
+	margin: 0 -15px;
+}
+
+.container {
+	composes: paddingSet;
+	background: #1D1D1D;
+	margin-top: 0;
+	text-align: center;
+}
+
+.socialContainer {
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
+
+.linksContainer {
+	margin-bottom: 30px;
+}
+
+.iconMargin {
+	margin-right: 37px;
+}
+
+.socialLink {
+	color: rgba(253,253,253,0.50);
+	font-size: 27px;
+}
+
+.socialLink:hover {
+	color: #FFFFFF;
+}
+
+.rowLabel {
+	font-family: ProximaNova-Semibold;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 0.22px;
+	margin-right: 30px;
+	text-transform: uppercase;
+}
+
+.listLinks {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.listLinks a{
+	text-transform: uppercase;
+	color: rgba(253,253,253,0.50);
+}
+.listLinks a:hover{
+	color:#ffffff;
+}
+
+.linkLabel {
+	font-family: ProximaNova-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.linkBlock {
+	margin-right: 20px;
+	composes: linkLabel;
+}
+
+.none {
+	display: none;
+}
+
+.border {
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: rgba(253,253,253,0.50);
+	margin-left: 20px;
+	vertical-align: middle;
+}
+
+.copyright {
+	font-family: ProximaNova-Regular;
+	font-size: 12px;
+	color: rgba(253,253,253,0.50);
+	letter-spacing: 0.22px;
+}
+
+@media screen and (max-width: 768px) {
+   .listLinks{
+   		margin: 0 30px 30px;
+   }
+
+   .rowLabel{
+   	margin-right: 0px;
+   	display: block;
+   }
+
+   .listLinks a{
+   		display: block;
+   		width: 100%;
+   		font-size: 16px;
+   		text-transform: none;
+   	margin-right: 0px;
+   }
+   .border{
+   	display: none;
+   }
+   .linkBlock{
+   	margin-right: 0px;
+   }
+}

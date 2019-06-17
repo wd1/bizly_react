@@ -1,0 +1,143 @@
+
+.herbg{
+  background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1469644149/partnerships-bg-2x_vnndsr.jpg');
+
+}
+
+.joinbox{
+  background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1469644149/joinbox-bg-2x_aytvro.jpg');
+}
+
+.herobtnwrap{
+	text-align: left;
+	margin-top: 40px;
+}
+.applybutton{
+	background: #19A69B;
+	font-family: ProximaNova-Bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	float: none;
+	height: 50px;
+	width: 300px;
+	line-height: 50px;
+	text-transform: none;
+}
+
+.herodescription{
+	font-family: ProximaNova-Regular;
+	font-size: 25px;
+	color: #FFFFFF;
+	letter-spacing: 0.45px;
+}
+
+.applybox h3{
+	font-family: ProximaNova-Bold;
+	font-size: 35px;
+	color: #FFFFFF;
+	letter-spacing: 0.2px;
+	text-transform: none;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+
+.exclusively{
+	opacity: 0.69;
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	line-height: 27px;
+	display: inline-block;
+
+}
+
+.invertbutton{
+	float: none;
+	background: #FFFFFF;
+	font-family: ProximaNova-Bold;
+	font-size: 16px;
+	color: #491A50;
+	letter-spacing: 0px;
+	height: 50px;
+	width: 100%;
+	max-width: 350px;
+	text-transform: none;
+	margin-top: 50px;
+	box-shadow: 2px 2px 4px rgba(255,255,255,.0);
+	-webkit-transition: box-shadow ease .5s;
+    -moz-transition: box-shadow ease .5s;
+    -o-transition: box-shadow ease .5s;
+    transition: box-shadow ease .5s;
+}
+.invertbutton:hover{
+	box-shadow: 2px 2px 4px rgba(255,255,255,.7);
+	-webkit-transition: box-shadow ease .5s;
+    -moz-transition: box-shadow ease .5s;
+    -o-transition: box-shadow ease .5s;
+    transition: box-shadow ease .5s;
+}
+
+.howitworks{
+	  background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1469644149/howitworks-hero-2x_qwk5pf.jpg');
+	  background-position: right top;
+    background-size: 45%;
+    background-color: #ffffff;
+
+}
+
+.bullets{
+	margin: 50px 0 20px 20px;
+	list-style-type: disc;
+	font-family: ProximaNova-Bold;
+	font-size: 18px;
+	color: #000000;
+	letter-spacing: 0px;
+	line-height: 30px;
+}
+
+.bullets li{
+	list-style-type: disc;
+	font-family: ProximaNova-Bold;
+}
+
+.partnerbutton{
+	width: 100%;
+	max-width: 350px;
+	height: 50px;
+	float: none;
+	line-height: 50px;
+	text-transform: none;
+	margin: 50px auto 50px;
+
+	font-family: ProximaNova-Bold;
+	font-size: 16px;
+}
+
+
+@media screen and (max-width: 769px) {
+
+	.herobg{
+	  background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1469644149/partnerships-bg-1x_idlxqo.jpg');
+	}
+	.joinbox{
+	  background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1469644149/joinbox-bg-1x_ffbyxn.jpg');
+	}
+
+	.spacedescription{
+		max-width: 100%;
+	}
+
+}
+@media screen and (max-width: 639px) {
+
+	.howitworks{
+		  background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1469644149/howitworks-hero-1x_le1xlc.jpg');
+	    background-size: 310px;
+	    background-color: #ffffff;
+	    padding-top: 300px;
+	}
+
+
+ }

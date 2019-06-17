@@ -1,0 +1,44 @@
+.RoomModal{
+	padding-left: 0px;
+	margin: 0;
+}
+
+.modalheader{ 
+}
+
+.modalheader .close{ 
+}
+
+.modaltitle{ 
+}
+
+.modalbody{
+	padding-top: 0px;
+}
+.descriptionouter{
+
+    margin: 20px -15px;
+    background: rgba(27,7,28,0.03);
+    overflow: hidden;
+    padding:20px; 
+} 
+
+.sliderwrap{
+    background: rgba(27,7,28,0.03); 
+	overflow: hidden;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	/*.descriptionouter{
+		max-height: 100px; 
+		overflow-y: auto;
+		padding-right: 20px;
+		padding-top: 0px; 
+	}*/
+}

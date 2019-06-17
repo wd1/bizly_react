@@ -1,0 +1,210 @@
+.heroouter{
+  overflow: hidden;
+  margin: 25px -15px 0;
+}
+
+.videoplayer{
+  width: 100%; 
+  position:absolute; 
+  z-index: -1;
+  left: 0px;
+  height: 640px;
+}
+
+.searchouter{
+  width: 100%;
+  /*background: rgba(19,0,29,0.70);*/
+  height: 76px;
+  display: table;
+}
+.searchinner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+.searchalign{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.centerit{
+  margin: 0px auto;
+  max-width: 790px;
+}
+
+.searchHero {
+  background-image: url('../../../../assets/video-poster.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 96px 0 96px 0 !important;
+  display: table;
+  width: 100%;  
+  overflow: hidden; 
+}
+
+.background { 
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)); /* Standard syntax */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.container {
+	z-index: 1000;
+  display: table-cell;
+  vertical-align: middle;
+	position: relative;
+}
+
+.fontWhite {
+	color: #FFFFFF;
+}
+
+.novaRegular {
+	font-family: ProximaNova-Regular;
+}
+
+.novaSemi {
+	font-family: ProximaNova-Semibold;
+}
+
+.bodoni {
+	font-family: BauerBodoniStd-Italic;
+}
+
+.headContainer {
+	composes: fontWhite;
+	text-align: left;
+	margin-bottom: 30px;
+  z-index: 999999;
+}
+
+.headline {
+	composes: novaSemi;
+	font-size: 60px !important;
+  font-family: ProximaNova-Bold;
+  color: #FFFFFF;
+  letter-spacing: 1.09px;
+  text-transform: none;
+  font-weight: normal;
+  z-index: 999999;
+  margin-bottom: 15px;
+}
+
+.subline {
+	composes: novaRegular;
+	font-size: 15px;
+	letter-spacing: 0.27px;
+  z-index: 999999;
+}
+
+/* Mobile */
+.mobileFontSize {
+  font-size: 30px;
+}
+
+.headlineMobile {
+  composes: novaSemi;
+  composes: fontWhite;
+  composes: mobileFontSize;
+  letter-spacing: 0.54px;
+}
+
+.italHeadline {
+  composes: headlineMobile;
+  composes: bodoni;
+}
+
+.sublineMobile {
+  composes: novaRegular;
+  composes: fontWhite;
+  font-size: 16px;
+  letter-spacing: 0.29px;
+}
+
+
+.video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+  
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: 100%;
+  
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+@media screen and (min-width: 1910px) {
+    .background{ 
+      width: 1920px;  
+      margin: 0px;
+      text-align: center;
+    }
+
+    .heroouter{
+      text-align: center; 
+    }
+
+    .searchHero{
+      background: transparent; 
+      width: 1920px;
+      text-align: center;
+      margin: 0 auto; 
+      padding:0px !important;
+    }
+
+    .video {
+      min-width: 1920px;
+      min-height: 1080px;
+      
+      width: 1920px;
+      height: 1080px;
+        
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .searchHero{
+        height: 640px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .searchinner{
+      padding-left: 0px;
+      padding-right: 5px;
+    }
+    .searchHero {
+      /*background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1468261073/home-hero-1x_e4hstc.jpg');*/
+      background-image: url('../../../../assets/video-poster.png'); 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .searchHero {
+      /*background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1468261073/home-hero-mobile_atwkgy.jpg');*/
+      background-image: url('../../../../assets/video-poster.png'); 
+      margin: 0px;
+    }
+
+}

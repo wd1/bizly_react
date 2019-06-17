@@ -1,0 +1,35 @@
+.infotile{
+	text-align: center;
+	padding: 60px 0;
+}
+
+.iconwrap{
+	text-align: center;
+	margin: 0 auto 30px;
+}
+
+.iconwrap img{
+	display: inline-block;
+	max-height: 40px; 
+}
+
+.infotile h3{ 
+	font-family: ProximaNova-Bold;
+	font-size: 20px;
+	color: #000000;
+	letter-spacing: 0.04px;
+	line-height: 20px;
+	margin: 0 0 20px;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.description{ 
+	opacity: 0.6;
+	font-family: ProximaNova-Light;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.03px;
+	line-height: 19px;
+	text-align: center;
+}

@@ -1,0 +1,46 @@
+.centerText {
+  text-align: center;
+}
+
+/* START common fonts */
+.novaLight {
+  font-family: ProximaNova-Light;
+}
+/* END */
+
+.modal {
+  border-radius: 0;
+  height: 100%;
+}
+
+.header {
+  composes: centerText;
+  background-color: #4B0251;
+  padding: 12px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  height: 20px;
+  width: 19px;
+  right: 10px;
+  background: url('../../../assets/close-button.png') no-repeat;
+}
+
+.title {
+  display: inline-block;
+  font-family: ProximaNova-Semibold;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.29px;
+}
+
+.body {
+  background: rgba(27,7,28,0.03);
+}
+
+.formContainer {
+  composes: centerText;
+  position: relative;
+}

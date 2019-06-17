@@ -1,0 +1,144 @@
+.staticwrap{ 
+	background: #EFEDEF;
+	margin: 0 -15px 0;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.staticinner{
+	text-align: left;
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 15px;
+}
+
+h1{
+	font-weight: normal;
+	font-family: ProximaNova-Light;
+	font-size: 29px;
+	color: #000000;
+	margin: 0 0 30px;
+	text-transform: uppercase;
+}
+
+.row{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+ul.joblists{
+	margin: 15px 0 15px 0;
+	padding: 0;
+	float: left;
+	font-size: 13px;
+	font-family: ProximaNova-Regular;
+}
+ul.joblists li {
+	margin: 0;
+	padding: 0;
+}
+ul.joblists li.category {
+	color: #000000;
+	letter-spacing: 0px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+ul.joblists li a{
+	font-size: 15px;
+	font-family: ProximaNova-Semibold;
+	color: #000000;
+	letter-spacing: 0px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
+} 
+ul.joblists li a:hover{
+	color: #4B0251;
+}
+
+.divider{
+	margin: 50px 0;
+}
+
+.careerblock{
+	clear: both;
+	margin: 5px 0 20px;
+	border-bottom: 1px solid rgba(0,0,0,.22);
+	padding:20px 0 30px;
+	overflow: hidden;
+}
+
+.careerdivider{
+	overflow:hidden;
+	float: left;
+}
+
+
+
+.careerIcon{
+  float: left;
+  width: 65px;
+  height: 65px; 
+	background: #4B0251; 
+	border-radius: 33px;
+	color: #ffffff;
+	margin-right: 30px;
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center center;
+}
+.iconEngineer{
+	background-image: url(../../assets/icon-engineer-2x.png);
+}
+.iconDesigner{
+	background-image: url(../../assets/icon-designer-2x.png);
+}
+.iconOperations{
+	background-image: url(../../assets/icon-operations-2x.png);
+}
+.iconSales{
+	background-image: url(../../assets/icon-sales-2x.png);
+}
+.iconMarketing{
+	background-image: url(../../assets/icon-marketing-2x.png);
+}
+.iconManagement{
+	background-image: url(../../assets/icon-management-2x.png);
+}
+.iconOther{
+	background-image: url(../../assets/icon-other-2x.png);
+}
+
+
+
+
+
+
+
+.careercategory{
+	float: left;
+	width: 160px;
+}
+.careercategory p{ 
+	font-family: ProximaNova-Bold;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0px;
+	line-height: 22px;
+	text-transform: uppercase;
+	padding: 15px 0 0;
+	margin: 0;
+}
+
+
+
+@media screen and (max-width: 768px) { 
+
+	ul.joblists{
+		clear: both;
+		width: 100%;
+	}
+
+}

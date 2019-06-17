@@ -1,0 +1,9 @@
+.amenities {
+  display: flex;
+  flex-direction: column;
+}
+
+.amenities input[type="checkbox"] {
+  margin-right: 16px;
+}
+

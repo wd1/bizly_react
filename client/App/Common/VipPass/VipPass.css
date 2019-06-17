@@ -1,0 +1,188 @@
+.modalouter{
+  position: relative;
+  background-image: url('https://res.cloudinary.com/hdd626jg7/image/upload/v1468261397/vip-ticket-bg-2x_ghlrti.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  background-color: #4A1650;
+}
+
+.vipcenter{
+  text-align: center;
+  width: 100%;
+}
+
+.hotelname{
+  font-family: ProximaNova-Thin;
+  font-size: 60px;
+  color: #FFFFFF;
+  letter-spacing: 1.47px;
+  text-transform: uppercase;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.nopadding{
+  padding: 0px !important;
+}
+
+.vipsummary{
+  margin: 35px 0;
+  overflow: hidden;
+  display: table;
+  width: 100%;
+}
+
+.vipleft{
+  display: inline-block;
+  width: 50%;
+  padding-right: 20px;
+  text-align: right;
+  font-family: ProximaNova-Regular;
+  font-size: 70px;
+  color: #FFFFFF;
+  letter-spacing: 6.11px;
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+}
+
+.vipright{
+  border-left: 1px solid #ffffff;
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+  padding-left: 20px;
+  text-align: left;
+  font-family: ProximaNova-Light;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0.81px;
+  line-height: 24px;
+}
+
+.detailline{
+  border-bottom: 1px solid rgba(255,255,255,.5);
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+.detailline:last-of-type{
+  border-bottom: 0px;
+}
+
+.detailtag{
+   text-transform: uppercase;
+  font-family: ProximaNova-Regular;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 0.23px;
+  float: left;
+  text-align: left;
+}
+
+.detailinfo{
+  font-family: ProximaNova-Light;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.72px;
+  line-height: 18px;
+  float: right;
+  text-align: right;
+}
+
+.invitebutton{
+  text-transform: uppercase;
+  height: 35px;
+  line-height: 35px;
+  width: 150px;
+  float: none;
+  border: 1px solid #FFFFFF;
+  font-family: ProximaNova-Regular;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0.22px;
+  margin: 30px auto 20px;
+  background: transparent;
+  -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.invitebutton:hover{
+  color: #4B0251;
+  border: 1px solid #4B0251;
+  background: #ffffff;
+  -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+
+.propertylogo{
+  margin: 0 auto;
+  max-width: 300px;
+  max-height: 150px;
+  padding: 0px;
+}
+
+.propertylogo img{
+  max-width: 300px;
+  max-height: 150px;
+
+}
+
+@media screen and (min-width: 769px) {
+  .modalouter{
+    width: 600px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .detailtag{
+    float: none;
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .detailinfo{
+    float: none;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 680px) {
+
+    .modalouter{
+      width: 100%; 
+    }
+
+    .vipleft{
+      display: inline-block;
+      width: 100%;
+      padding-right: 0px;
+      text-align: center; 
+      height: auto;
+      display: block;
+      float: none;
+    }
+
+    .vipright{
+      border-left: 0px solid #ffffff; 
+      height: auto;
+      padding-left: 0px;
+      text-align: center; 
+      width: 100%;
+      display: block;
+      float: none;
+    }
+ 
+}

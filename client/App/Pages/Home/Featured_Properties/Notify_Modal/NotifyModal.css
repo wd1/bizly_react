@@ -1,0 +1,72 @@
+
+
+.bodoni {
+	font-family: BauerBodoniStd-Italic;
+}
+
+.novaLight {
+	font-family: ProximaNova-Light;
+}
+
+.centerText {
+  text-align: center;
+  overflow: hidden;
+}
+.header {
+  composes: centerText;
+  font-family: ProximaNova-Semibold;
+  font-size: 16px;
+  color: #1B071C;
+  letter-spacing: 0.29px;
+  text-transform: uppercase;
+}
+.welcome{ 
+	font-family: ProximaNova-Light;
+	font-size: 15px;
+	color: #000000;
+	letter-spacing: 0.27px;
+	font-weight: normal;
+	text-transform: none;
+	padding: 30px 0 0;
+}
+.buttonwrap{
+	margin: 0 auto;
+	max-width: 280px;
+	width: 100%;
+	text-align: center;
+}
+.formBox,
+.form-group input {
+	border: 1px solid rgba(155,155,155,0.32) !important;
+	background: #FFFFFF;
+	margin-bottom: 20px;
+}
+.formFont {
+	composes: novaLight;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.25px;
+	padding: 9px;
+}
+
+.fullBox {
+	composes: formFont;
+	composes: formBox;
+	width: 100%;
+}
+
+
+.formgroupinput{
+	composes: fullBox;
+	margin-bottom: 0px;
+	height: 35px;
+}
+
+.buttonwrap{
+	padding: 20px 0 30px;
+	clear: both;
+}
+
+.buttonwrap button{
+	float: none;
+}

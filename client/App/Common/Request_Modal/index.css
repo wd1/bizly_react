@@ -1,0 +1,23 @@
+.title {
+  composes: title from '../RFP_Modal/rfpModal.css';
+}
+
+.introText {
+  composes: introtext from '../RFP_Modal/rfpModal.css';
+}
+
+.formGroupInput {
+  composes: formgroupinput from '../RFP_Modal/rfpModal.css';
+}
+
+.locationInput {
+  composes: locationinput from '../RFP_Modal/rfpModal.css';
+}
+
+.searchRow {
+  composes: searchrow from '../RFP_Modal/rfpModal.css';
+}
+
+.buttonRow {
+  composes: buttonRow from '../RFP_Modal/rfpModal.css';
+}

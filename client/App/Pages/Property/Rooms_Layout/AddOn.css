@@ -1,0 +1,176 @@
+.addonwrap{
+	width: 100%;  
+	margin-bottom: 0px;
+	border: 1px solid #E7E5E9;
+	overflow: hidden;
+}
+
+.addonwrap:nth-child(even){
+	margin-right: 0px;
+}
+
+.addoninner{
+	clear: both;
+	position: relative;
+	overflow: hidden; 
+    /* flex will allow equal height */
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        
+ 
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.amenitydets{
+	float: left;
+	margin: 20px 60px 20px 0px;
+	max-width: 50%;
+}
+
+.amenitytitle{
+	font-family: ProximaNova-Regular;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.3px;
+}
+.amenityrate{
+	font-family: ProximaNova-Regular;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.3px;
+	line-height: 17px;
+}
+.amenityrate span.perperson{
+	font-size: 10px;
+}
+.amenityimg{
+	border: 2px solid #4B0251;
+	float: left;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	margin: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+.amenityimg img{
+	max-width: 36px;
+	max-height: 36px;
+	margin: auto;
+	line-height: 60px;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+.specialrequest {
+	font-family: ProximaNova-Semibold;
+	font-size: 10px;
+	color: rgba(0,0,0,.5);
+	letter-spacing: 0.21px;
+	line-height: 11px;
+	text-decoration: none;
+}
+
+.addicon,
+.removeicon{
+	position: absolute;
+	right: 20px;
+	background-image: url('../../../../assets/btn-add-amenity.png');
+	top:30px;
+	width: 29px;
+	height: 29px;
+	text-indent: -55555px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: .5;
+	cursor: pointer;
+	cursor: hand;
+}
+.addicon:hover,
+.removeicon:hover,
+.removeicon{
+	opacity: 1;
+}
+
+.removeicon{
+	background-image: url('../../../../assets/btn-remove-amenity.png');
+}
+
+.restrictions{
+	display: block;
+	clear: both;
+	padding: 8px;
+	font-size: 12px;
+	color: #4A1650;
+	font-family: ProximaNova-Regular;
+	margin: 10px 15px;
+	border: 1px solid red;
+	background: rgba(75,1,81,0.1);
+	border: 1px solid #4A1650;
+	text-align: center;
+	padding: 8px;
+}
+
+
+
+
+.tabsouter div{
+	height: 30px;
+	font-family: ProximaNova-Light;
+	font-size: 10px;
+	color: #1A1A1A;
+	letter-spacing: 0px;
+	line-height: 30px;
+	width: 50%;
+	float: left;
+	text-align: center;
+	background: rgba(43,18,44,0.05);
+	border: 1px solid #E7E5E9;
+	border-bottom: 0px;
+}
+.addonwrap .tabsouter .tabwrap{
+	overflow: hidden;
+	width: 100%;
+}
+
+.tabsouter div:last-of-type{
+}
+.tabsouter div.tabactive{
+	background: #ffffff;
+	border: 0px solid #E7E5E9;
+}
+
+.tabsouter .roomsouter .tabwrap{
+	border:1px solid red;
+}
+.tabsouter{
+	overflow: hidden;
+}
+
+
+.descriptionouter{
+	margin: 0 0 0 20px;
+}
+.descriptionlistheight{
+	max-height: 110px;
+	min-height: 110px;
+	overflow-y: auto;
+	padding-right: 20px;
+	
+}
+
+
+@media screen and (max-width: 768px) {
+	.addonwrap{
+		width: 100%;
+		margin-right: 0%;
+		float: none;
+	}
+	.descriptionlistheight{ 
+		min-height: 0px;  	
+	}
+
+
+}

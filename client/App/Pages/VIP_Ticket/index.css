@@ -1,0 +1,23 @@
+.inviteouter{
+	text-align: center;
+	padding: 50px;
+	background: #FFFFFF;
+	margin: 0 -15px;
+}
+
+.vipinner{
+	width: 600px;
+	display: block;
+	margin: 10px auto;
+}
+
+@media screen and (max-width: 680px) {
+
+    .inviteouter{
+      padding: 55px 0 10px;
+    }
+    .vipinner{
+    	width: 100%;
+    }
+
+}

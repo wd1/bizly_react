@@ -1,0 +1,107 @@
+.outerwrap {
+	background: #EFEDEF;
+	margin: 0 -15px 0; 
+	padding: 100px 0 0px;
+}
+
+.checkoutright{
+	position: relative;
+}
+
+.checkouttop{
+	margin-bottom: 40px;
+}
+
+.checkoutblock{
+	padding-bottom: 40px;
+	margin-bottom: 40px; 
+	border-bottom: 1px solid rgba(151,151,151,0.32);
+}
+
+.checkoutblock tr{
+	border-bottom: 0px;
+}
+
+.checkoutbreakout{
+	background: #F8F7F8;
+	padding: 30px 0 80px;
+	margin-top: 40px;
+}
+.policycell{ 
+	font-family: ProximaNova-Light;
+	font-size: 15px;
+	color: #000000;
+	line-height: 25px;
+}
+
+.termsrow{ 
+	margin: 30px 0 0;
+font-family: ProximaNova-Regular;
+font-size: 12px;
+color: #000000;
+letter-spacing: 0px;
+	vertical-align: middle;
+}
+.termsrow input[type="checkbox"]{
+	background: #FFFFFF;
+	border: 1px solid rgba(27,7,28,0.20);
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-top: 0px; 
+}
+
+.btnrow{
+	text-align: left;
+	overflow: hidden;
+	padding: 40px 0;
+}
+.btnrow button{
+	float: left;
+	margin-left: 0px;
+}
+
+.editbutton{ 
+	border: 1px solid #4B0251;
+	background-color: transparent;
+	color: #4B0251; 
+}
+
+.errorouter{
+	width: 100%;
+	background: #AD343E;
+	margin: 10px 0 30px;
+	max-height: 70px;
+	overflow-y: auto;
+}
+
+.errorbox{
+	background: #AD343E;
+	padding: 15px 20px;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	display: inline-block;
+	font-family: ProximaNova-Regular;
+	font-size: 14px; 
+}
+
+
+@media screen and (max-width: 480px) {  
+	.checkoutblock{
+		padding-bottom: 30px;
+		margin-bottom: 30px;  
+	}
+
+	.termsrow input[type="checkbox"]{
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	.btnrow button{
+		margin-top: 10px;
+	}
+
+}

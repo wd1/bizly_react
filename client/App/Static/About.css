@@ -1,0 +1,143 @@
+.staticwrap{
+	background: #EFEDEF;
+	margin: 0 -15px 0;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.staticinner{
+	text-align: left;
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 15px;
+}
+
+h1{
+	font-weight: normal;
+	font-family: ProximaNova-Light;
+	font-size: 29px;
+	color: #000000;
+	margin: 0 0 30px;
+	text-transform: uppercase;
+}
+
+.row{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.paddingTop {
+
+}
+
+.team{
+	margin-top: 50px;
+	padding-top: 50px;
+	border-top: 1px solid rgba(0,0,0,0.22);
+}
+.boxouter{
+	height: 300px;
+	overflow: hidden;
+	background-size: cover;
+	margin-bottom: 30px;
+	background-position: center top;
+}
+.boxinner{
+	position: relative;
+}
+
+.biobox{
+	height: 300px;
+	background: rgba(18,0,29,0.70);
+	position: absolute;
+	top: 245px;
+	width: 100%;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.boxouter:hover .biobox{
+	top: 0px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.biohead{
+	height: 55px;
+	text-align: center;
+	padding: 10px;
+}
+.biohead strong{
+	font-weight: normal;
+	font-family: ProximaNova-Bold;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 0.26px;
+	display: block;
+}
+.biohead span{
+	text-transform: uppercase;
+	font-family: ProximaNova-Light;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 0.21px;
+	display: block;
+}
+.biotext{
+
+}
+.biotext p{
+	font-family: ProximaNova-Regular;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	line-height: 17px;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+.headshotRon{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206227/ron_nvzvsh.jpg);
+}
+.headshotBryan{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206226/bryan_wplnez.jpg);
+}
+.headshotChris{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206226/chris1_kunyhj.jpg);
+}
+.headshotHolly{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206226/holly_bm9elj.jpg);
+}
+.headshotJen{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206226/jen_copy_wlintj.jpg);
+}
+.headshotMigi{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206226/migi_qd1ggn.jpg);
+}
+
+.headshotSai{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206227/sai_emkbfg.jpg);
+}
+.headshotShawn{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206227/shawn_kerzwe.jpg);
+}
+.headshotTor{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206227/tor_pcbji8.jpg);
+}
+.headshotNelson{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469645696/headshot-nelson_gcaxna.jpg);
+}
+.headshotMatt{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206226/matt_nfu2oa.jpg);
+}
+.headshotGreg{
+	background-image: url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469206227/greg2_tphr9t.jpg);
+}
+.headshotNancy{
+	background-image:url(https://res.cloudinary.com/hdd626jg7/image/upload/v1469741731/Nancy_odxqtm.jpg);
+}

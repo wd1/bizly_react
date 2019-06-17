@@ -1,0 +1,52 @@
+.invitebox{
+	background: #F8F7F8;
+	padding: 40px 0;
+	margin: 20px auto 0;
+	text-align: center;
+}
+
+.invitebox h2{
+	font-weight: normal;
+	margin: 0 auto 30px;
+	text-align: center; 
+	font-family: BauerBodoniStd-Italic;
+	font-size: 45px;
+	color: #000000; 
+	text-transform: none;
+}
+
+.invitetext{
+	border-top: 1px solid rgba(151,151,151,.32);
+	padding: 30px 0;
+	width: 100%;
+	margin: 0 auto 30px;
+	max-width: 760px; 
+	font-family: $font-reg;
+	font-size: 18px;
+	color: #000000;
+	line-height: 24px;
+}
+
+.invitebutton{
+	float: none;
+	display: inline-block; 
+			max-width: 75%;
+
+}
+
+.noreservations h1{
+	text-transform: none;
+	text-align: center;
+	margin: 60px;
+}
+
+
+@media screen and (max-width: 640px) { 
+
+	
+	.invitetext{
+		margin-bottom: 0px;
+		padding-bottom: 20px;
+	}
+
+}

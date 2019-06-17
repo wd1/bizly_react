@@ -1,0 +1,331 @@
+.cartouter{
+	background: #ffffff;
+	padding: 30px 0;
+}
+
+.cartinner{
+	padding: 0px 20px;
+	text-align: left;
+}
+.overflowy{
+
+	overflow-y: auto;
+}
+.cartheader{
+	height: 45px;
+	width: 100%;
+	margin: 0 0 0 0;
+	background: #4A1650;
+	font-family: ProximaNova-Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0.25px;
+	line-height: 16px;
+	text-align: center;
+	line-height: 45px;
+	text-transform: uppercase;
+}
+
+.static {
+	position: relative;
+	top: 0;
+	bottom: auto;
+	right: 0px;
+	max-height: 100%;
+}
+
+.absolute {
+	position: absolute;
+	right: 20px;
+	margin-top: 10px;
+}
+
+.iconleft{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+.iconleft img{
+	max-height: 20px;
+	max-width: 20px;
+	width: 100%;
+}
+
+.cartline{
+	margin-bottom: 20px;
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0.32px;
+}
+
+.sectionborder{
+	border-bottom: 1px solid rgba(151,151,151,0.32);
+	margin-bottom: 20px;
+}
+
+.total{
+	display: block;
+	margin:0px 0 0px;
+	font-family: ProximaNova-Semibold;
+	font-size: 20px;
+	color: #000000;
+	letter-spacing: 0.43px;
+}
+
+.detblock{
+	display: inline-block;
+	 max-width: 80%;
+	 width: 80%
+}
+
+.dethead{
+	font-family: ProximaNova-Regular;
+	font-size: 15px;
+	color: #000000;
+	letter-spacing: 0.32px;
+	width: 100%;
+}
+.tax{
+	font-family: ProximaNova-Regular;
+	font-size: 10px;
+	color: #1A1A1A;
+	letter-spacing: 0px;
+	padding-left: 12px;
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+	padding-right: 20px;
+}
+.dettotal{
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	color: #63CBBD;
+	letter-spacing: 0.3px;
+
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+	padding-right: 20px;
+}
+
+.removeroom{
+	float: right;
+	font-family: ProximaNova-Regular;
+	font-size: 10px;
+	color: #9B9B9B;
+	letter-spacing: 0px;
+	margin: 5px 0 0 10px;
+}
+.remove{
+	float: right;
+	color: rgba(40,18,44,0.20);
+	cursor: pointer;
+}
+.removeroom:hover,
+.remove:hover{
+	color: #4A1650;
+}
+
+.bookbutton{
+	margin: 15px 0 0;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+}
+
+.bookbutton button{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	float: none;
+}
+
+.roomimgwrap{
+	height: 195px;
+	overflow: hidden;
+	width: 100%;
+	margin: -30px 0 10px;
+	border:0px;
+	background: rgba(151,151,151,0.32);
+}
+
+.roomimg{
+	min-height: 195px;
+	height: auto;
+	width: 100%;
+	border:0px;
+}
+.mobileheader{
+	display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .cartouter {
+    width: 295px;
+		max-width: 295px;
+		z-index: 999;
+		overflow: hidden;
+		overflow-y:auto;
+		overflow-x:hidden;
+  }
+
+  .mobilesummary {
+			-webkit-transition: max-height 0.5s ease;
+		    -moz-transition: max-height 0.5s ease;
+		    -o-transition: max-height 0.5s ease;
+			transition: max-height 0.5s ease;
+  	max-height: 175px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+  }
+
+
+	.relative .mobilesummary{
+			-webkit-transition: max-height 0.5s ease;
+		    -moz-transition: max-height 0.5s ease;
+		    -o-transition: max-height 0.5s ease;
+			transition: max-height 0.5s ease;
+		overflow: hidden;
+		max-height: 0px;
+	}
+
+
+
+}
+
+@media screen and (max-width: 984px) {
+	.cartouter{
+		padding: 0px 0 30px;
+	}
+
+	.roomimgwrap{
+		margin-top: 0px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.cartheader {
+		display: none;
+	}
+	.cartouter {
+		padding-top: 30px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	.roomimgwrap{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.cartouter{
+		padding-top: 0px;
+	}
+	.cartinner{
+		padding-top: 30px;
+	}
+	.mobileheader{
+		display: block;
+	}
+
+	.rmimageleft{
+		float: left;
+		width: 104px;
+		height: 104px;
+		overflow: hidden;
+		background: rgba(151,151,151,0.32);
+	}
+	.roomimg{
+		height: 100%;
+		width: auto;
+		min-width: 104px;
+		min-height: 104px;
+	}
+	.summaryinfo{
+		clear: both;
+	}
+	.headtext{
+		font-family: ProximaNova-Light;
+		font-size: 14px;
+		color: #000000;
+		letter-spacing: 0.32px;
+		padding: 10px 0 0 10px;
+		float: left;
+	}
+
+	.headtext strong{
+		font-family: ProximaNova-Regular;
+		font-weight: normal;
+		font-size: 16px;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+
+		.mobilesummary,
+		.summaryinfo,
+		.promoouter{
+			max-height: 0px;
+			overflow: hidden;
+			-webkit-transition: max-height 0.5s ease;
+		    -moz-transition: max-height 0.5s ease;
+		    -o-transition: max-height 0.5s ease;
+			transition: max-height 0.5s ease;
+		}
+		.expand .mobilesummary,
+		.expand .summaryinfo,
+		.expand .promoouter{
+			max-height: 400px;
+			overflow: hidden;
+			-webkit-transition: max-height 0.5s ease;
+		    -moz-transition: max-height 0.5s ease;
+		    -o-transition: max-height 0.5s ease;
+			transition: max-height 0.5s ease;
+		}
+
+		.total{
+			background-image: url(../../../assets/drop-arrow.png);
+			background-repeat: no-repeat;
+			background-position: right center;
+			background-size: 15px;
+		}
+		.expand .total{
+			background-image: url(../../../assets/up-arrow.png);
+			border-top: 1px solid rgba(27,7,28,.05);
+			padding-top: 20px;
+		}
+		.expand{
+			padding-bottom: 10px;
+		}
+
+		.cartinner{
+			padding-top: 20px;
+		}
+		.expand .cartinner{
+			padding-top: 30px;
+		}
+
+		.static {
+			right: 0px;
+		}
+
+		.errorouter{  
+			margin: 10px 0 10px; 
+		}
+
+
+}

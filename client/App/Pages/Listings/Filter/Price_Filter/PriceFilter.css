@@ -1,0 +1,10 @@
+.prices {
+  display: flex;
+  font-family: ProximaNova-Light;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.prices span {
+  padding-right: 2px;
+}

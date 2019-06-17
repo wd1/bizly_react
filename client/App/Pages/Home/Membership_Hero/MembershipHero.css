@@ -1,0 +1,66 @@
+.joinhero{ 
+	background: #F3F3F3;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 -15px;
+	padding: 0 15px 80px;
+}
+
+.joinhero h2{ 
+	font-family: ProximaNova-Bold;
+	font-size: 35px;
+	color: #000000;
+	letter-spacing: 0.2px;
+	text-transform: none;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.joinhero h3{ 
+	opacity: 0.69;
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0px;
+	line-height: 27px;
+	text-transform: none;
+}
+
+
+.memberbutton{ 
+	background: #4A1650; 
+	font-family: ProximaNova-Bold;
+	font-size: 16px;
+	color: #ffffff;
+	letter-spacing: 0px;
+	width: 100%;
+	max-width: 350px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	border: 1px solid #4A1650;
+}
+
+.memberbutton:hover{
+	background: #ffffff;
+	color: #4A1650;
+}
+
+.quiltimg{
+	overflow: hidden;
+	padding: 0 40px
+}
+
+.quiltimg img{
+	width: 100%;
+	margin: 80px auto;
+	max-width: 1140px;
+}
+
+
+
+@media screen and (max-width: 640px) {
+	.quiltimg{
+		display: none;
+	}
+
+}

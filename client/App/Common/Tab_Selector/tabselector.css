@@ -1,0 +1,30 @@
+.tabwrap{
+	padding: 15px;
+	background: rgba(27,7,28,0.03); 
+	border-top: 1px solid #D2CDD1; 
+	margin: 0 -15px;
+}
+
+.tab{ 
+	font-family: ProximaNova-Regular;
+	font-size: 14px;
+	color: #4B0251;
+	letter-spacing: 0.25px;
+	display: inline-block;
+	height: 21px;
+	line-height: 21px;
+	border-right: 1px solid #D2CDD1; 
+	width: 49%;
+	text-align: center;
+}
+
+.tab:last-of-type{
+	border-right:0px;
+}
+.tab.active, .tabactive{ 
+	font-family: ProximaNova-Bold; 
+} 
+
+.roomsouter .tabwrap{
+	border:1px solid red;
+}

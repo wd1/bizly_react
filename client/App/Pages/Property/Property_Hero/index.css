@@ -1,0 +1,117 @@
+.imgouter{
+	margin: 0 -15px;
+	position: relative;
+}
+
+.hotelimgwrap{
+	height: 305px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.bgoverlay{
+	color: #ffffff;
+	background-image: url('../../../../assets/purple-overlay.png');
+	position: absolute;
+	bottom: 0px;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	padding: 20px 30px;
+}
+
+	.overlayinner{
+		max-width: 1170px;
+		margin: 15px auto;
+		text-align: left;
+	} 
+
+.bgoverlay h1{
+	font-family: ProximaNova-Bold;
+	font-size: 29px;
+	color: #FFFFFF;
+	letter-spacing: 0px; 
+	font-weight: normal;
+	line-height: 29px;
+	margin: 0 0 8px;
+	display: inline-block;
+}
+.bgoverlay .address{
+	font-size: 14px;
+	font-family: ProximaNova-Light;
+}
+
+.tagtype{ 
+	background: #77347C;
+	border-radius: 5px; 
+	font-family: ProximaNova-Bold;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	display: inline-block;
+	height: 30px;
+	min-width: 72px;
+	text-align: center;
+	line-height: 30px;
+	padding: 0 15px;
+	margin-left: 30px;
+	vertical-align: top;
+	text-transform: uppercase;
+}
+ 
+@media screen and (min-width: 1024px) {
+	.hotelimgwrap{
+		height: 648px; 
+	}
+ 
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	.bgoverlay h1{
+		width: 100%;
+	}
+	.tagtype { 
+		margin-bottom: 8px;
+	}
+	.tagtype:first-of-type{
+		margin-left: 0px; 
+	}
+	.hotelimgwrap{
+		height: 450px; 
+	}
+
+	.bgoverlay{
+		text-align: center;
+	}
+	.overlayinner{ 
+		margin: 40px auto;
+		text-align: left;
+	} 
+
+	.bgoverlay{
+		position: relative;
+		background: #4A1650;
+	}
+}
+
+
+@media screen and (max-width: 640px) { 
+	.hotelimgwrap{
+		height: 305px; 
+	}
+	.tagtype{
+		display: none;
+	}
+
+	.overlayinner{ 
+		margin: 20px auto; 
+	} 
+	.bgoverlay h1{
+		font-size: 29px;
+	}
+ 
+}

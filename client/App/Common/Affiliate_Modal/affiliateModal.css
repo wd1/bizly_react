@@ -1,0 +1,92 @@
+
+.title,
+.welcome {
+  text-align: center;
+  font-family: ProximaNova-Semibold;
+  font-size: 16px;
+  color: #1B071C;
+  letter-spacing: 0.29px;
+  text-transform: uppercase;
+}
+
+.introtext{
+
+}
+ 
+
+.subtitle {
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0.25px;
+	line-height: 20px;
+	text-align: center;
+	margin: 10px 30px 20px;
+}
+
+.introtext{
+	font-family: ProximaNova-Regular;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.25px;
+	line-height: 20px;
+	text-align: center;
+	margin: 10px 30px 20px;
+
+}
+
+
+.formgroupinput {
+	border: 1px solid rgba(155,155,155,0.32) !important;
+	background: #FFFFFF;
+	margin-bottom: 0px !important;
+	width: 100%;
+	font-size: 14px;
+	font-family: ProximaNova-Light;
+    color: #000000;
+    letter-spacing: 0.23px;
+    height: 35px;
+    line-height: 35px;
+    border-right: 0px;
+    text-indent: 10px;
+    opacity: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.searchrow{
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+.locationinput{
+	width: 38%;
+	border-right: 0px !important;
+}
+
+.buttonrow{
+	overflow: hidden;
+	margin: 0 0 30px;
+	text-align: center;
+}
+
+.buttonrow button{
+	float: none;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+	.locationinput{
+		width: 100%;
+		border: 1px solid rgba(155,155,155,0.32) !important;
+	}
+	.searchrow{
+		margin: 0 15px 20px; 
+	}
+
+}
+

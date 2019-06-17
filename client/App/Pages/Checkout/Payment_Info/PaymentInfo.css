@@ -1,0 +1,105 @@
+.subhead,
+.checkoutlabel{
+	text-transform: none;
+	font-weight: normal;
+	font-family: ProximaNova-Regular;
+	font-size: 15px;
+	color: #000000;
+	line-height: 17px;
+	margin-bottom: 20px;
+}
+
+.checkoutlabel{
+	margin-bottom: 10px;
+}
+
+.cardLogo{
+	background: #491A50;
+ 	display: inline-block;
+ 	width: 47px;
+ 	height: 31px;
+ 	border-radius: 5px;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	margin: 0 5px 0 5px;
+}
+
+
+.styledselect  {
+   /*background: url(../../../../assets/drop-arrow.png) no-repeat right center;*/
+   border-radius: 0px;
+   height: 35px;
+   width: 370px;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(151,151,151,0.32);
+	font-family: ProximaNova-Light;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0.23px;
+}
+
+.nameexp{
+	display: inline-block;
+	font-family: ProximaNova-Semibold;
+	font-size: 10px;
+	color: #1A1A1A;
+	letter-spacing: 0px;
+	line-height: 14px;
+	vertical-align: middle;
+}
+
+.formrow{
+	max-width: 570px;
+	margin-top: 15px;
+}
+.formrow input{
+	background-color: #FFFFFF;
+	border: 1px solid rgba(151,151,151,0.32);
+	font-family: ProximaNova-Light;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0.23px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 0px;
+}
+.formrow input:focus{
+	border: 1px solid #4B0251;
+}
+.addcard{
+	clear: left;
+	margin: 20px 0;
+	float: left;
+}
+
+@media screen and (max-width: 769px) {
+	.typebox{
+		width: 100% !important;
+		clear: both;
+	}
+	.paymentbox{
+		width: 100% !important;
+		clear: both;
+	}
+	.styledselect{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.nameexp{
+		margin-top: 15px;
+		display: none;
+	}
+	.cardlogo{
+		margin-top: 15px;
+		margin-left: 0px;
+		display: none;
+	}
+
+	.styledselect{
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,215 @@
+
+
+.iconleft{
+	width: 23px;
+	height: 23px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+.inviterow{
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(151,151,151,0.32); 
+}
+
+.iconleft span{
+	line-height: 23px;
+	display: block;
+	width: 23px;
+	height: 23px;
+	background-size: contain;
+	background-repeat: no-repeat; 
+	background-position: left center;
+}
+.invitetext{
+	font-family: ProximaNova-Semibold;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0.23px;
+}
+
+.iconguest{
+	background-image: url(../../../assets/icon-guest.png);
+}
+.iconenvelope{
+	background-image: url(../../../assets/icon-envelope.png);
+}
+.iconcompany{
+	background-image: url(../../../assets/icon-company.png);
+}
+.iconphonebook{
+	background-image: url(../../../assets/icon-phonebook.png);
+}
+
+
+.checkoutlabel,
+.invitelist h1{ 
+	font-size: 15px;
+	color: #000000;
+	line-height: 17px;
+	font-weight: normal;
+	margin-bottom: 15px;
+	text-transform: none;
+	font-family: ProximaNova-Regular;
+}
+
+.subjectrow{
+	padding: 20px 0;
+}
+
+.formrow{ 
+	margin-bottom: 15px;
+}
+
+.formrow input{ 
+	border: 1px solid rgba(151,151,151,0.32); 
+	font-family: ProximaNova-Light;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0.23px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 0px; 
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
+    display: inline-block;
+    max-width: 510px;
+    width: 85%;
+    vertical-align: middle;
+}
+
+.icon,
+.iconinverse{
+	display: inline-block; 
+	width: 35px;
+	height: 35px;
+	margin-right: 10px; 
+	background: #D5D0D5;
+    vertical-align: middle; 
+}
+.iconinverse{ 
+	background-color: #4B0251; 
+	color: #ffffff;
+	background-position: center;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+
+.icon span,
+.iconinverse span{
+	display: inline-block;  
+	font-family: ProximaNova-Semibold;
+	font-size: 15px; 
+	letter-spacing: 0.27px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-top: 8px;
+	color: #4B0251;
+}
+
+.iconinverse span{ 
+	color: #FFFFFF;
+}
+
+.meetingdescription{
+	background: #ffffff; 
+	border: 1px solid rgba(151,151,151,0.32);   
+	font-family: ProximaNova-Light;
+	font-size: 14px;
+	color: rgb(0,0,0,0.5);
+	letter-spacing: 0.25px;
+	width: 100%;
+	padding: 15px;
+	height: 125px;
+	resize: none;
+}
+
+.buttonrow{
+	margin: 10px 0 60px;
+}
+
+.guestlistheader{
+	margin: 20px 0 0;
+}
+
+.shownguests{
+	display: none;
+}
+
+
+/*custom confirmation page */
+.confirmation .invitelead{
+	display: none;
+}
+
+.confirmation .shownguests{
+	display: block;
+	border-top: 1px solid rgba(151,151,151,0.32);
+	padding: 40px 0 0;
+	margin: 10px 0 0;
+}
+
+.ftguests{
+	padding-bottom: 15px;
+}
+
+.ftinvite{
+	margin: 0 5px;
+	padding-bottom: 60px; 
+}
+
+@media screen and (max-width: 480px) { 
+
+
+ 	.iconleft{
+ 			margin-bottom: 14px;
+ 	}
+
+ 	.confirmationbox{ 
+		font-family: ProximaNova-Light;
+		font-size: 16px;
+		color: #FFFFFF;
+ 	}
+ 	h1.invite{ 
+		font-family: ProximaNova-Light;
+		font-size: 19px;
+		color: #000000;
+		letter-spacing: 0px;
+ 	}
+
+ 	.inviteintro{ 
+		font-family: ProximaNova-Light;
+		font-size: 14px;
+		color: #000000;
+		line-height: 20px;
+ 	}
+ 	.inviterow{
+ 		display: none;
+ 	}
+ 	.descriptionrow{
+ 		margin-top: 40px;
+ 	}
+ 	.descriptionrow textarea{
+ 		background: #ffffff;
+ 	}
+ 	.checkoutlabel,
+ 	h1.guestlistheader{ 
+		font-family: ProximaNova-Semibold;
+		font-size: 14px;
+		color: #000000;
+		letter-spacing: 0px;
+		line-height: 16px;
+		font-weight: normal;
+ 	}
+
+	.buttonrow{
+		margin: 0px -15px 60px;
+		padding: 0;
+	}
+	.buttonrow  button{
+		margin: 20px 0;
+	}
+
+}

@@ -1,0 +1,144 @@
+.container {
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.bigImage {
+	height: 415px;
+	width: 100%;
+}
+
+.mWebImage {
+	composes: bigImage;
+	height: 217px;
+}
+
+.smallImage {
+	height: 280px;
+	max-width: 100%;
+	width: 100%;
+}
+
+.barBG {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 280px;
+	background: rgba(18,0,29,0.50); 
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.container:hover .barBG{
+	background: transparent;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.copy {
+	position: relative;
+	padding: 8px 8px 8px 0;
+	overflow: hidden;
+}
+
+.name {
+	font-family: ProximaNova-Semibold;
+	font-size: 35px;
+	line-height: 34px;
+	color: #FFFFFF;
+	letter-spacing: 0.24px;
+	float: left;
+	padding: 0 15px; 
+	text-align: center;
+	display: block;
+	margin: 70px auto 0px;
+	width: 100%;
+	font-weight: normal;
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.cityname{
+	font-family: ProximaNova-Regular;
+	font-size:18px;
+	letter-spacing: .33px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 0 10px 30px;
+	display: inline-block;
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.priceBlock {
+	display: block;
+	text-align: center; 
+	display: block;
+	width: 100%;
+	padding-right: 4px;
+	line-height: normal;
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.startingAt {
+	font-family: ProximaNova-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0.1px;
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.price {
+	display: block;
+	margin-top: 3px;
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0.25px;
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.container:hover .price,
+.container:hover .priceBlock,
+.container:hover .cityname,
+.container:hover .startingAt,
+.container:hover .name{
+	opacity: 0;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+	.container{
+			margin-bottom: 20px;
+	}
+
+}

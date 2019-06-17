@@ -1,0 +1,318 @@
+
+
+
+.fontWhite {
+  color: #FFFFFF;
+}
+
+.novaRegular {
+  font-family: ProximaNova-Regular;
+}
+
+.novaLight {
+  font-family: ProximaNova-Light;
+}
+
+.formFont {
+  composes: novaLight;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.25px;
+  padding: 9px;
+}
+
+.searchBar {
+  border: 1px solid #EEE;
+  border-right: 0;
+  width: 21%;
+  vertical-align: middle;
+}
+
+.formGeneral,
+input[type="text"] {
+  background: #FFFFFF;
+  border: 1px solid rgba(151,151,151,0.32);
+  font-family: ProximaNova-Light;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0.23px;
+  height: 35px;
+  line-height: 35px;
+  border-right: 0px;
+  text-indent: 10px;
+  opacity: 1;
+   -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+}
+.location{
+  border-right: 0px;
+}
+
+
+.formGeneral::-webkit-input-placeholder,
+.formGeneral:-moz-placeholder,
+.formGeneral::-moz-placeholder,
+.formGeneral:-ms-input-placeholder {
+  color: #000000;
+}
+
+.formGeneral:last-of-type {
+}
+
+.location {
+  composes: searchBar;
+  composes: formGeneral;
+  width: 30%;
+  background-image: url(../../../assets/icon-location-indicator.png);
+  background-position: 8px center;
+  background-size: 14px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+}
+
+.dropdown {
+  composes: searchBar;
+  composes: formGeneral;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  padding-left: 5px;
+  background-color: #FFFFFF;
+  border-radius: 0;
+  border-right: 0px;
+}
+
+.date {  
+  display: inline-block;
+  width:15%;
+}
+.datepickerwrap{
+  display: inline-block;
+
+}
+.datepicker-wrap input{
+  border-left: 0px;
+}
+
+.time {
+  composes: searchBar;
+  composes: formGeneral;
+}
+
+.button {
+  composes: searchBar;
+  margin-left: 0px;
+  float: none;
+  display: inline-block;
+  background: #19A69B;
+  border: #19A69B;
+  text-align: center;
+  font-family: ProximaNova-Regular;
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 0.18px;
+  margin-right: 0px;
+  height: 35px;
+   -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+   border-radius: 0px;
+}
+
+.button:hover {
+  border-color: #4B0251;
+  background-color: #FFFFFF;
+  color: #4B0251;
+}
+
+.locationMarker {
+  position: absolute;
+  color: #D2CDD1;
+  font-size: 26px;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.formBox {
+  border: 1px solid rgba(155,155,155,0.32);
+  background: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.halfBox {
+  composes: formFont;
+  composes: formBox;
+  display: inline-block;
+  width: 49%;
+}
+
+.firstBox {
+  composes: halfBox;
+  margin-right: 2%;
+}
+
+.fullBox {
+  composes: formFont;
+  composes: formBox;
+  width: 100%;
+}
+
+.locationInput {
+  composes: fullBox;
+  padding-left: 29px;
+}
+
+.buttonFont {
+  composes: novaLight;
+  composes: fontWhite;
+  font-size: 15px;
+  letter-spacing: 0.29px;
+}
+
+.mobileButton {
+  composes: buttonFont;
+  border-radius: 0;
+  background-color: #4B0251;
+  width: 100%;
+  margin: 0px 0 5px;
+}
+
+select{
+  border: 1px solid rgba(151,151,151,0.32);
+   border-radius: 0px !important;
+   height: 35px;
+   width: 17%;
+  background-color: #FFFFFF;
+  font-family: ProximaNova-Light;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0.23px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 10px;
+   -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+  background-image: url(../../../assets/drop-arrow-aqua.png);
+  background-position: right 12px center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+    outline: none;
+}
+
+.location select{
+  width: 85%;
+  border: 0px;
+  margin-left: 10%;
+  height: 32px;
+  margin-top:-2px;
+}
+
+select option{
+   border-radius: 0px !important;
+
+}
+
+
+.homepage{
+}
+
+.homepage input[type="text"],
+.homepage select{
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.homepage select{
+  width: 17%;
+}
+
+.homepage .location{
+  background-image: url(../../../assets/icon-search-aqua.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 22px;
+  height: 50px;
+}
+
+.homepage .location select{
+  width: 85%;
+  border: 0px;
+  height: 48px;
+    outline: none;
+    margin-top: 0px;
+}
+
+.homepage button{
+  height: 50px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background: #19A69B;
+  border: 1px solid rgba(151,151,151,0.32);
+  width: 17%;
+}
+
+.homepage button:hover{
+  color: #ffffff;
+  background: #19A69B;
+  border: 1px solid #19A69B;
+}
+
+.interiorpage{
+}
+
+.modalform .location{
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    padding-right: 10px;
+    border-right: 1px solid rgba(151,151,151,0.32);
+}
+
+.modalform .location select {
+   border: 0px;
+    margin-left: 0;
+    background-color: transparent;
+    height: 32px;
+    margin-top: 0px;
+    display: inline-block;
+    width: 100%;
+    text-indent: 10px;
+}
+
+
+@media screen and (max-width: 993px) {
+  .homepage button{
+    width: 12%;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  select, input{
+    width: 100%;
+  }
+  select{
+    margin:10px 0;
+  }
+  .searchBar{
+    width: 16%;
+  }
+  .buttonmodal,
+  .modalbutton{
+    width: 30% !important;
+  }
+
+  .locationselect{
+    text-indent: 20px;
+    margin-bottom: 0px;
+  }
+
+
+}

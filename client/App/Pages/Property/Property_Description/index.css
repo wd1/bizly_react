@@ -1,0 +1,100 @@
+.descriptionwrap{	
+	padding: 40px; 
+	background: #EFEDEF;
+	margin: 0 -15px;
+	text-align: center;
+}
+
+.descriptioninner{
+	margin-right: 400px;
+}
+
+.deckline{ 
+	font-family: ProximaNova-Light;
+	font-size: 19px;
+	color: #000000;
+	text-transform: uppercase;
+	margin: 0 20px 30px;
+}
+
+.deckline strong{
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: ProximaNova-Light;
+	font-size: 29px;
+	color: #000000;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.contentwrap{ 
+	margin: 0 8px 10px;
+}
+
+.contentwrap p{ 
+	font-family: ProximaNova-Light;
+	font-size: 15px;
+	color: #000000;
+	line-height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+
+	.descriptionwrap{
+		padding: 80px 20px;
+		text-align: center;
+	}
+
+	.descriptioninner{
+		max-width: 1170px;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.deckline { 
+		font-family: ProximaNova-Light;
+		font-size: 29px;
+		color: #000000;
+	}
+
+	.contentwrap p{ 
+		font-family: ProximaNova-Light;
+		font-size: 15px;
+		color: #000000;
+		line-height: 25px;
+	}
+
+   	.deckline,
+   	.contentwrap{
+   		padding: 0 20px 0 20px;
+   		max-width: 1170px;
+   		text-align: left;
+   		margin: auto;
+   	}
+}
+@media screen and (min-width: 768px) {
+   	.contentwrap{
+   		padding: 0 45% 0 20px; 
+   	}
+}
+@media screen and (min-width: 970px) {
+   	.contentwrap{
+   		padding: 0 45% 0 20px; 
+   	}
+
+}
+@media screen and (min-width: 1024px) {
+   	.contentwrap{
+   		padding: 0 37% 0 20px; 
+   	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.descriptioninner{
+		margin-right: 0px;
+	} 
+	.deckline{
+		padding-top: 30px;
+	}
+}

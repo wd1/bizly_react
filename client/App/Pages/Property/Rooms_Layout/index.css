@@ -1,0 +1,11 @@
+.needhelp{ 
+	background: #EFEDEF; 
+	font-family: ProximaNova-Light;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.25px;
+	font-style: italic;
+	padding: 20px 0;
+	margin: 10px -15px 0;
+	text-align: center;
+}

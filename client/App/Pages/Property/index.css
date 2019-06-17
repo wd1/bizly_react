@@ -1,0 +1,59 @@
+.searchwrap{
+	padding: 100px 15px 20px;
+	margin: 0 -15px;
+	background: #EFEDEF;
+	overflow: hidden;
+	display: block;
+}
+
+.brokenwrap{
+	padding: 100px 15px 80px;
+	margin: 0 -15px;
+	background: #EFEDEF;
+	overflow: hidden;
+	display: block;
+}
+
+.leadtext{
+	font-weight: normal;
+    font-family: ProximaNova-Semibold;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 36px;
+    text-transform: none;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    display: inline-block;
+}
+
+.brokenwrap h2{
+	color:#4A1650;
+	font-weight: normal;
+    font-family: ProximaNova-Semibold;
+    font-size: 32px;
+    margin-bottom: 40px;
+    display: block;
+    margin-top: 20px;
+    text-transform: none;
+}
+.iconrefresh{
+	background: url(../../../assets/icon-refresh.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-size: contain;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.smalltext{
+	font-size: 14px;
+    font-family: ProximaNova-Regular;
+	color:#4A1650;
+}
+.smalltext a{
+    font-family: ProximaNova-Semibold;
+	color:#19A69B;
+}

@@ -1,0 +1,185 @@
+.confirmationjumbo{ 
+	background: #F8F7F8;
+	text-align: center;
+}
+
+.confirmationjumbo h1{  
+	font-family: BauerBodoniStd-Italic;
+	font-size: 45px;
+	color: #000000;
+	font-weight: normal;
+	text-transform: none;
+}
+p{ 
+	font-size: 15px;
+	color: #000000;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+}
+
+.confirmationbox{ 
+	background: transparent;
+	border: 1px solid #4A1650; 
+	font-family: ProximaNova-Light;
+	font-size: 22px;
+	color: #4A1650;
+	line-height: 35px;
+	width: 100%;
+	max-width: 370px;
+	margin: 40px auto 0;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-transform: none;
+}
+
+.confirmationbox strong{
+	font-family: ProximaNova-Regular; 
+}
+
+
+.hotelbox{
+	background: #ffffff;
+	overflow: hidden;
+	margin: 20px 0;
+	vertical-align: top;
+	display: table;
+	width: 100%; 
+}
+
+.hotelimgwrap{
+	background: #D8D8D8;
+	width:40%;
+	height:250px;
+	overflow: hidden;
+	text-align: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.hotelimg{
+	width:100%;
+	vertical-align: top;
+} 
+
+.hoteldets{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+	width: 60%;
+}
+
+
+.hotelname{
+	font-family: ProximaNova-Light;
+	font-size: 30px;
+	color: #000000;
+	font-weight: normal;
+}
+
+
+
+.address{
+	font-family: ProximaNova-Regular;
+	font-size: 13px;
+	color: #1A1A1A;
+	letter-spacing: 0px;
+}
+
+.bookingitems{
+	text-align: center;
+	font-family: ProximaNova-Regular;
+	font-size: 15px;
+	color: #1A1A1A;
+}
+
+.icon{
+	margin: 20px 0 5px;
+}
+
+.icon img{
+	width: 20px;
+}
+
+.buttonrow{
+	padding: 10px 0;
+	clear: both;
+}
+
+.buttonrow button{
+	margin: 10px 0 0; 
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+	height: auto;
+	line-height: 16px;
+	font-family: ProximaNova-Regular;
+}
+
+.buttonrow button:hover{
+	border: 1px solid #4A1650;
+	background: #ffffff;
+	color: #4A1650;
+
+}
+
+
+.buttonrow button.invitebutton{
+	border: 1px solid #4A1650;
+	background: #ffffff;
+	color: #4A1650;
+}
+
+.buttonrow button.invitebutton:hover{
+	border: 1px solid #4A1650;
+	background: #4A1650;
+	color: #ffffff;
+}
+
+
+@media screen and (max-width: 1200px) { 
+ 
+ 	.hotelimgwrap{
+ 		width: 30%;
+ 		height: 300px;
+ 	}
+ 	.hoteldets{
+ 		width: 70%;
+ 	}
+
+
+}
+
+@media screen and (max-width: 990px) { 
+ 
+ 	.hotelimgwrap,
+ 	.hoteldets{
+ 		width: 100%;
+ 	}
+
+ 	.hotelimgwrap{
+ 		height: 200px;
+ 	}
+	
+}
+
+@media screen and (max-width: 480px) { 
+
+	.confirmationjumbo{
+		margin:0 -15px 40px;
+	}
+	.confirmationjumbo .jumbolead{  
+		font-size: 25px;
+		text-transform: none;
+		margin-bottom: 5px;
+	}
+	.confirmationjumbo p.jumbop{
+		font-size: 15px;
+		margin-bottom: 5px;
+
+	}
+	
+}

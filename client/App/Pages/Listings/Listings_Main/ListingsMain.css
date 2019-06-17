@@ -1,0 +1,48 @@
+.instantly{
+	background: #EFEDEF;
+	padding: 20px;
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.here {
+	cursor: pointer; 
+	border: 1px solid #77347C;
+    border-radius: 0;
+    background: #77347C;
+    width: 86%;
+    font-family: ProximaNova-Bold;
+    font-size: 16px;
+    color: #ffffff;
+    max-width: 200px;
+    height: 40px;
+    line-height: 30px;
+    float: none;
+}
+
+.here:hover{
+    color: #77347C;
+    background: transparent;
+}
+
+.titlehead{
+	font-weight: normal; 
+	font-family: ProximaNova-Regular;
+	font-size: 28px;  
+	margin: 20px 0;
+	text-transform: none;
+}
+
+.errornotice{ 
+    background: #ffffff;
+    padding: 20px;
+    overflow: hidden;
+    margin: 20px 0;
+    vertical-align: top;
+    display: table;
+    width: 100%;
+    box-shadow: 2px 2px 4px rgba(216,216,216,.5); 
+}

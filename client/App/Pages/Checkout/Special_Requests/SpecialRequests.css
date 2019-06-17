@@ -1,0 +1,118 @@
+
+.formrow{
+	max-width: 570px;
+	margin-bottom: 15px;
+}
+.formrow input{ 
+	background-color: transparent;
+	border: 0px;  
+	border-bottom: 1px solid rgba(151,151,151,0.32); 
+	font-family: ProximaNova-Light;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0.23px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 0px; 
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
+    display: inline-block;
+    max-width: 510px;
+    width: 90%;
+    vertical-align: middle;
+}
+.formrow input:focus,
+.formrow input:focus{  
+	outline: none !important;
+	border: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
+	border-bottom: 1px solid rgba(151,151,151,0.32); 
+}
+
+.icon,
+.iconinverse{
+	display: inline-block; 
+	width: 35px;
+	height: 35px;
+	margin-right: 10px; 
+	background: #D5D0D5;
+    vertical-align: middle;
+}
+.iconinverse{ 
+	background-color: rgba(19,0,29,0.40);
+	background-image: url(../../../../assets/icon-checkbox.png);
+	background-position: center;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+
+.icon span,
+.iconinverse span{
+	display: inline-block; 
+	width: 20px;
+	height: 20px; 
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 8px;
+	background-position: center;
+}
+
+.allergy{
+	background-image: url(../../../../assets/icon-allergies.png);
+}
+.roomsetup{
+	background-image: url(../../../../assets/icon-gear.png);
+}
+.eventlog{
+	background-image: url(../../../../assets/icon-event.png);
+}
+.allergies{
+	background-image: url(../../../../assets/icon-checkbox.png);
+}
+.av{
+	background-image: url(../../../../assets/icon-av.png);
+}
+.other{
+	background-image: url(../../../../assets/icon-other.png);
+}
+
+
+.infonotice{ 
+	margin-top: 20px;
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.28px;
+}
+
+.infoicon{
+	background-image: url(../../../../assets/infoicon.png);
+	display: inline-block; 
+	width: 15px;
+	height: 15px; 
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 8px;
+	background-position: center;
+}
+
+.infosubtext{ 
+	font-family: ProximaNova-Regular;
+	font-size: 12px;
+	color: #000000;
+	letter-spacing: 0px;
+	line-height: 17px;
+}
+
+@media screen and (max-width: 480px) {  
+
+	.formrow input{ 
+		max-width: 310px;
+	}
+
+	.infosubtext{
+		margin-bottom: 20px;
+	}
+
+}

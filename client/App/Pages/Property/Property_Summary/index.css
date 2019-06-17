@@ -1,0 +1,148 @@
+.summarywrap{
+	overflow: hidden;
+	margin: 0 -15px;
+	background: rgba(27,7,28,0.03);
+	padding: 40px;
+	text-align: center;
+}
+
+.summaryinner{
+	margin-bottom: 40px;
+	font-family: ProximaNova-Light;
+	font-size: 15px;
+}
+
+h2{
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	color: #000000;
+	text-transform: uppercase;
+	margin: 0 0 15px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style-type: none;
+	font-family: ProximaNova-Light;
+	font-size: 15px;
+	color: #000000;
+	line-height: 22px;
+	margin:0 0 5px;
+}
+
+.amenity{
+	display: inline-block;
+	width:20%;
+	margin: 0 1%;
+	text-align: center;
+	height: 80px;
+}
+
+.amenity .icon{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.amenity .icon img{
+	max-width: 36px;
+	height: 28px;
+	margin-bottom: 15px;
+}
+.amenityname{
+	font-family: ProximaNova-Light;
+	font-size: 12px;
+	color: #000000;
+	letter-spacing: 0.21px;
+	text-align: center;
+	line-height: 14px;
+	height: 32px;
+	display: table-cell;
+	vertical-align: top;
+	width: 20%;
+}
+
+button.viewrooms{
+	border: 1px solid #4B0251;
+	font-family: ProximaNova-Bold;
+	font-size: 12px;
+	color: #4B0251;
+	letter-spacing: 0.24px;
+	background: transparent;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.aboutinner{
+	margin: 80px 0 0;
+	padding-bottom: 80px;
+}
+
+
+@media screen and (min-width: 1024px) {
+	.aboutinner{
+		max-width: 66%;
+	}
+
+}
+.aboutinner h2{
+	font-weight: normal;
+	font-family: ProximaNova-Light;
+	font-size: 29px;
+	color: #000000;
+}
+
+tr{
+	border-bottom: 1px solid #EFEDEF;
+}
+th{
+	font-weight: normal;
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	color: #000000;
+	text-transform: uppercase;
+	vertical-align: top;
+	min-width: 150px;
+	width: 25%;
+	padding: 20px 20px 20px 0;
+}
+
+td{
+	vertical-align: top;
+	padding: 20px 0;
+	font-family: ProximaNova-Light;
+	font-size: 15px;
+	color: #000000;
+	letter-spacing: 0.36px;
+	line-height: 25px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+
+}
+
+
+
+@media screen and (max-width: 768px) { 
+	.summarywrap h2{
+		margin-top: 20px;
+	}
+	.summarycell,
+	.summaryinner{ 
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		padding-bottom: 50px;
+	}
+	.summaryhead{
+		margin-bottom: 30px;
+		margin-top: 40px; 
+	}
+ 
+
+}

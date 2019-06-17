@@ -1,0 +1,46 @@
+.errorouter{
+	width: 100%;
+	background: #AD343E;
+	margin: 10px 0 -30px;
+	max-height: 70px;
+	overflow-y: auto;
+}
+
+.errorbox{
+	background: #AD343E;
+	padding: 15px 20px;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	display: inline-block;
+	font-family: ProximaNova-Regular;
+	font-size: 14px;
+	border-bottom: 1px solid #ffffff;
+}
+.errorbox:last-of-type{
+	border-bottom: 0px;
+}
+.errorouter::-webkit-scrollbar-track {
+      background-color: #ffffff;
+}
+
+.errorouter::-webkit-scrollbar-thumb {
+      background-color: #AD343E;
+}
+
+.errorouter::-webkit-scrollbar-button {
+      background-color: #AD343E;
+}
+
+.errorouter::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border-left: 1px solid #ffffff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	 .errorouter{ 
+		margin: 10px 0 10px; 
+	}
+}

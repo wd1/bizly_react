@@ -1,0 +1,98 @@
+.featProperties {
+	text-align: center;
+	background: #F3F3F3;
+	margin: 0 -15px;
+	padding: 60px 15px;
+}
+
+.header {
+	margin-bottom: 30px;
+}
+
+.headline {
+	font-family: 'ProximaNova-Bold';
+	font-size: 27px;
+	color: #000000;
+	letter-spacing: 0px;
+	line-height: 27px;
+	font-weight: normal;
+}
+
+.subline {
+	font-family: 'ProximaNova-Regular';
+	font-size: 16px;
+}
+
+.propertiesGrid {
+	margin-bottom: 30px;
+}
+
+.seeAll {
+	border: 1px solid #77347C;
+	border-radius: 0;
+	background: #77347C;
+	width: 86%;
+	font-family: ProximaNova-Bold;
+	text-transform: none;
+	font-size: 16px;
+	color: #ffffff;
+	max-width: 200px;
+	height: 40px;
+	line-height: 30px;
+}
+
+.seeAll:hover{
+	color: #77347C;
+	background: #ffffff;
+}
+
+.buttonDesktop {
+	composes: seeAll;
+	max-width: 35%;
+	float: none;
+}
+
+.seeAll:hover {
+	border: 1px solid #4B0251;
+	background-color: #4B0251;
+	color: #FFFFFF;
+}
+
+.hide {
+	display: none
+}
+
+.comingsoon{
+	padding: 20px;
+	opacity: 0.5;
+	font-family: ProximaNova-Light;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.comingsoon .notify{
+	color: #4A1650;
+	font-family: ProximaNova-Semibold;
+	cursor: pointer;
+}
+
+.comingsoon:hover{
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+	.propertiesGrid{
+		margin-bottom: 0px;
+	}
+
+}

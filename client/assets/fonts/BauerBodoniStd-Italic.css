@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Bauer-Bodoni-Std-1-Italic_6252';
+  src: url('./Bauer-Bodoni-Std-1-Italic_6252.eot');
+  src: url('./Bauer-Bodoni-Std-1-Italic_6252.woff2') format('woff2'),
+       url('./Bauer-Bodoni-Std-1-Italic_6252.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BauerBodoniStd-Italic';
+  src: url('./BauerBodoniStd-Italic.woff') format('woff'),
+       url('./BauerBodoniStd-Italic.ttf') format('truetype'),
+       url('./BauerBodoniStd-Italic.svg#BauerBodoniStd-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

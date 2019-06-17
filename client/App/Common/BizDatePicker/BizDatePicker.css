@@ -1,0 +1,38 @@
+
+
+.modalform .datepickerelement input[type="text"]{
+    border-right: 1px solid rgba(151,151,151,0.32) !important; 
+}
+
+.notmodal{ 
+	width: 100%;
+	display: inline-block;
+}
+
+.modalform{
+  
+    width: 23%;
+    display: inline-block;
+    border-right: 0px;
+}
+
+  .datepickerwrap{ 
+    width: 100%;
+    display: inline-block;
+  }
+
+  .datepickerwrap input[type="text"]{
+  	width: 100% !important;
+  }
+
+@media screen and (max-width: 768px) {
+
+  .datepickerwrap{ 
+    width: 100%;
+  }
+	.modalform .datepickerelement input[type="text"]{
+	    border-right: 1px solid rgba(151,151,151,0.32) !important; 
+	}
+
+
+}

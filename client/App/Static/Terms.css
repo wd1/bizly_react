@@ -1,0 +1,36 @@
+.staticwrap{ 
+	background: #EFEDEF;
+	margin: 0 -15px 0;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.staticinner{
+	text-align: left;
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 15px;
+}
+
+h1{
+	font-weight: normal;
+	font-family: ProximaNova-Light;
+	font-size: 29px;
+	color: #000000;
+	margin: 0 0 30px;
+	text-transform: uppercase;
+}
+
+.row{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.paddingTop {
+
+}
+hr{ 
+	border-top: 1px solid rgba(0,0,0,0.22);
+	margin: 20px 0 30px;
+	display: block;
+}

@@ -1,0 +1,96 @@
+.staticwrap{ 
+	background: #EFEDEF;
+	margin: 0 -15px 0;
+	text-align: center;
+	padding-bottom: 80px;
+	padding-top: 100px;
+}
+
+
+.formouter{
+	background: #F8F7F8;
+	padding-bottom: 80px;
+}
+
+
+.formgroupinput {
+	border: 1px solid rgba(155,155,155,0.32) !important;
+	background: #FFFFFF;
+	margin-bottom: 0px !important;
+	width: 100%;
+	font-size: 14px;
+	font-family: ProximaNova-Light;
+    color: #000000;
+    letter-spacing: 0.23px;
+    height: 35px;
+    line-height: 35px;
+    border-right: 0px;
+    text-indent: 10px;
+    opacity: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+textarea.formgroupinput{
+	height: 120px;
+}
+
+.buttonrow{
+	padding-top: 30px;
+	clear: both;
+}
+
+.buttonrow button{
+	float: none;
+}
+
+h1.heading{ 
+	font-family: ProximaNova-Bold;
+	font-size: 35px;
+	color: #1E1E1E;
+	letter-spacing: 0.06px;
+	line-height: 33px;
+	text-align: center;
+	text-transform: none;
+	font-weight: normal;
+	margin: 60px auto;
+}
+
+.successwrap{ 
+	border: 1px solid #4A1650;
+	margin: 0px auto 30px;
+	padding: 20px;
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #4A1650;
+}
+
+
+.errorwrap{
+	border: 1px solid #4A1650;
+	background: #4A1650;
+	margin: 0px auto 30px;
+	padding: 20px;
+	font-family: ProximaNova-Bold;
+	font-size: 16px;
+	color: #ffffff;
+
+}
+
+.labelitem{
+	font-family: ProximaNova-Bold;
+	font-weight: normal;
+	text-align: right;
+	display: block;
+	line-height: 35px;
+	float: right;
+}
+
+@media screen and (max-width: 991px) {
+    
+	.labelitem{ 
+		text-align: center;
+		float: none;
+	}
+}

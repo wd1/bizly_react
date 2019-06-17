@@ -1,0 +1,87 @@
+/* Common style */
+
+.searchwrap{
+	margin: 20px 0;
+}
+
+.listingswrap{
+	background: rgba(27,7,28,0.03);
+	margin: 60px -15px 0;
+	padding: 50px 15px;
+}
+
+.listings {
+	max-width: 1170px;
+  	margin: 30px auto;
+}
+
+.toggles{
+	margin: 0 0 0 30px;
+}
+.toggles button{ 
+	background: #FFFFFF;
+	border: 1px solid rgba(151,151,151,0.32);
+	display: inline-block;
+	width: 120px;
+	height: 35px; 
+	font-family: ProximaNova-Regular;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0.68px;
+	opacity: .4;
+	margin: 0; 
+	float: left;
+}
+
+.toggles button:last-of-type{
+	border-left: 0px solid rgba(151,151,151,0.32);
+}
+
+.toggles button.active,
+.toggles button:hover{
+	opacity: 1; 
+}
+
+.hamburger{
+  position: relative;
+  padding-left: 1.25em;
+}
+.hamburger:before { 
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -8px;
+    width: 15px;
+    height: 12px;
+    border-top: 2px double #000;
+    border-bottom: 2px solid #000;
+}
+.hamburger:after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -8px;
+    width: 15px;
+    height: 14px;
+    border-top: 2px double #000; 
+}
+.locationicon{
+	background-image: url(../../../assets/icon-location-indicator.png);
+	height: 18px;
+	width: 13px; 
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin: 0px 6px 0 -12px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1140px) {
+
+	.toggles button{ 
+		width: 40%;
+	}
+	.viewlabel{
+		display: none;
+	}
+}
