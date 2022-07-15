@@ -26,9 +26,9 @@ Forge will then automatically run the new `dist/`
 
 ## Endpoints:
 ### Development
-https://dev.bizly.co
+https://dev.bizlyheroukuapp.co
 ### Staging/Testing
-https://stg.bizly.co
+https://stg.bizlyherokuapp.co
 ### Production/Live
 https://bizly.co & https://bizly.com
 
